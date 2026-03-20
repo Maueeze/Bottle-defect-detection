@@ -133,13 +133,18 @@ Best model: **Random Forest**
   <img src="assets/confusion_matrix.png" width="600"/>
 </p>
 
-| model                | cv_f1_macro_mean | cv_f1_macro_std | cv_bal_acc_mean | cv_acc_mean |
-|----------------------|------------------|------------------|------------------|-------------|
-| random_forest        | 1.0              | 0.0              | 1.0              | 1.0         |
-| mlp                  | 1.0              | 0.0              | 1.0              | 1.0         |
-| gradient_boosting    | 0.9953           | 0.0094           | 0.9953           | 0.9951      |
-| linear_svm           | 0.9861           | 0.0125           | 0.9846           | 0.9877      |
-| logistic_regression  | 0.9732           | 0.0125           | 0.9711           | 0.9753      |
+<p align="center">
+  
+  | model                | cv_f1_macro_mean | cv_f1_macro_std | cv_bal_acc_mean | cv_acc_mean |
+  |----------------------|------------------|------------------|------------------|-------------|
+  | random_forest        | 1.0              | 0.0              | 1.0              | 1.0         |
+  | mlp                  | 1.0              | 0.0              | 1.0              | 1.0         |
+  | gradient_boosting    | 0.9953           | 0.0094           | 0.9953           | 0.9951      |
+  | linear_svm           | 0.9861           | 0.0125           | 0.9846           | 0.9877      |
+  | logistic_regression  | 0.9732           | 0.0125           | 0.9711           | 0.9753      |  
+
+</p>
+
 
 ---
 
