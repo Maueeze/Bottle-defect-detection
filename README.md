@@ -177,25 +177,83 @@ training/yolo_training
 
 ## ▶️ How to Run
 
+### 1. Clone repository
+
 ```bash
 git clone https://github.com/Maueeze/Bottle-defect-detection.git
 cd Bottle-defect-detection
+```
+
+---
+
+### 2. Install dependencies
+
+```bash
 pip install -r requirements.txt
 ```
 
-Add model:
+---
+
+### 3. Prepare YOLO model
+
+The YOLO model (`best.onnx`) is **not included** due to file size limitations.
+
+You have two options:
+
+---
+
+#### Option A — Use existing model
+
+If you already have `best.onnx`, place it here:
 
 ```
 models/best.onnx
 ```
 
-Run:
+---
+
+#### Option B — Train and export model
+
+1. Open notebook:
+
+```
+training/train_yolo.ipynb
+```
+
+2. Run all cells to train the model
+
+3. Export model to ONNX:
+
+```python
+best_model.export(format="onnx")
+```
+
+4. Move exported file to:
+
+```
+models/best.onnx
+```
+
+---
+
+### 4. Run application
 
 ```bash
 streamlit run app/streamlit_app.py
 ```
 
 ---
+
+### 5. Test with sample images
+
+Example images are available in:
+
+```
+data/sample_images/
+```
+
+Upload them in the Streamlit app to see predictions.
+
 
 ## 📁 Structure
 
