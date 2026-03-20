@@ -31,7 +31,9 @@ Then it converts detected bounding boxes into a **13-feature vector** and uses a
 
 ## Pipeline
 
-![Architecture](assets/architecture.png)
+<p align="center">
+  <img src="assets/architecture.png"/>
+</p>
 
 **Workflow:**
 
