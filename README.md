@@ -149,10 +149,10 @@ In real-world scenarios, more data would be required.
 ## 🧪 YOLO Training
 
 Files available in:
-training/
+training/yolo_training
 
 <p align="center">
-  <img src="assets/yolo_training_results.png" width="700"/>
+  <img src="training/yolo_training/results.png" width="700"/>
 </p>
 
 ---
