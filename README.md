@@ -45,7 +45,7 @@ Then it converts detected bounding boxes into a **13-feature vector** and uses a
 
 ## Example Application View
 
-![App Screenshot](assets/app_screenshot.png)
+![App Screenshot](assets/screenshot_1.png)
 
 ---
 
@@ -127,7 +127,7 @@ The best-performing model was:
 ![Model Comparison](assets/model_comparison.png)
 
 ### Confusion matrix of best classifier
-![Classifier Confusion Matrix](assets/confusion_matrix_classifier.png)
+![Classifier Confusion Matrix](assets/confusion_matrix.png)
 
 ---
 
