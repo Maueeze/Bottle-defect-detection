@@ -45,20 +45,20 @@ Then it converts detected bounding boxes into a **13-feature vector** and uses a
 
 ## Example Application View
 
-<img src="assets/screenshot_1.png" width="500"/>
+<img src="assets/screenshot_1.png" width="1000"/>
 
 ---
 
 ## Example Predictions
 
 ### Prediction Example 1
-![Demo 1](assets/demo_detection/demo_prediction_1.png)
+<img src="assets/demo_detection/demo_prediction_1.png" width="1000"/>
 
 ### Prediction Example 2
-![Demo 2](assets/demo_detection/demo_prediction_2.png)
+<img src="assets/demo_detection/demo_prediction_2.png" width="1000"/>
 
 ### Prediction Example 3
-![Demo 3](assets/demo_detection/demo_prediction_3.png)
+<img src="assets/demo_detection/demo_prediction_3.png" width="1000"/>
 
 ---
 
@@ -124,10 +124,10 @@ The best-performing model was:
 **Random Forest**
 
 ### Cross-validation comparison
-![Model Comparison](assets/model_comparison.png)
+<img src="assets/assets/model_comparison.png" width="1000"/>
 
 ### Confusion matrix of best classifier
-![Classifier Confusion Matrix](assets/confusion_matrix.png)
+<img src="assets/confusion_matrix.png" width="1000"/>
 
 ---
 
