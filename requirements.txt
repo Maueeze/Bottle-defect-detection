@@ -1,0 +1,10 @@
+streamlit
+ultralytics
+onnx
+onnxruntime
+pandas
+numpy
+scikit-learn
+joblib
+matplotlib
+pillow
