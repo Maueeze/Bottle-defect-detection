@@ -45,7 +45,7 @@ Then it converts detected bounding boxes into a **13-feature vector** and uses a
 
 ## Example Application View
 
-![App Screenshot](assets/screenshot_1.png)
+<img src="assets/screenshot_1.png" width="500"/>
 
 ---
 
